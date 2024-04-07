@@ -1,0 +1,206 @@
+.fullHeight {
+  height: 100vh;
+  width: 30vw;
+  padding: 20px 20px;
+  /* background-color: aquamarine; */
+  color: rgb(253, 116, 139);
+}
+.scrool {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.btns {
+  border: none;
+  outline: none;
+  height: 2.3rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: rgb(255, 97, 124);
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.btns:hover {
+  transform: scale(0.99);
+}
+.radio {
+  border-radius: 50%;
+  background-color: black;
+  color: pink;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section_dribble {
+    display: none;
+  }
+ 
+    .btns {
+      text-align: center;
+     padding-left: 20px;
+    }
+    .arrowicon{
+      top:"0px";
+      left:"10px";
+      background-color:"rgba(219, 219, 219, 0.853)";
+    }
+    .inputs>div{
+      display: flex;
+      flex-direction: column;
+    }
+    .inputs{
+      margin: auto;
+    }
+   
+}
+@media only screen and (max-width: 800px) {
+  
+  
+ 
+  .btns {
+      text-align: center;
+      padding-left: 10px;
+      /* overflow: hidden; */
+    }
+    .arrowicon{
+      top:"0px";
+      left:"-10px";
+      background-color:"rgba(219, 219, 219, 0.853)";
+    }
+    .mains .left{
+      display: none;
+    }
+    .maincontainer{
+      margin: 0;
+      padding: 0;
+    }
+   
+  }
+@media only screen and (max-width: 450px) {
+  
+  
+  
+  .btns {
+    width: 500px;
+      text-align: center;
+      padding-left: 5px;
+      /* overflow: hidden; */
+      font-size: .1rem;
+    }
+    .arrowicon{
+      top:"0px";
+      left:"-50px";
+      background-color:"rgba(219, 219, 219, 0.853)";
+    }
+    .rights h2{
+      display: block;
+      width: 100%;
+    }
+
+    .rights input{
+      width: 100%;
+      margin: 0;
+    }
+    .inputs{
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .mains .left{
+      display: none;
+    }
+    .maincontainer{
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 450px) {
+ 
+    
+    .rights h2{
+      display: block;
+      width: 100%;
+    }
+    
+    .rights input{
+      width: 100%;
+        /* margin: 0; */
+      }
+      .inputs>div{
+        display: flex;
+      flex-direction: column;
+    }
+    .maincontainer{
+      
+      padding: 0px 0px;
+    }
+  }
+
+
+@media only screen and (min-width:500px) {
+  
+  .arrowicon{
+    left: -100px;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .maincontainer{
+      padding: 10px 200px;
+    }
+  }
+  
+}
+.left {
+  width: 35%;
+  background-image: url("./Image/iimage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.rights {
+  margin-top: 5rem;
+  width: 65%;
+}
+
+.inputs input {
+  border: none;
+  background-color: rgba(220, 220, 220, 0.517);
+  height: 30px;
+  border-radius: 5px;
+  padding: 17px 15px;
+}
+
+.inputs label{
+  color: black;
+  font-weight: 700;
+  padding-left: 5px;
+  font-size: 1.1rem;
+}
+.inputs  input[type="checkbox"] {
+  
+  width: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  outline: none;
+  
+}
+
+
+.inputs input{
+  margin-bottom: 15px;
+}
+.inputs label{
+  margin-top: 15px;
+}
+.privacy{
+  width: 280px;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
