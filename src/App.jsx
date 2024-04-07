@@ -20,12 +20,12 @@ function App() {
     <>
     {/* <Home/> */}
 
-    <Router basename="/Dribble">
+    <Router >
     {/* <Navbar/> */}
         {/* <Signup/> */}
       <Routes>
-        <Route path='/Dribble' element={<Signup/>}/>
-
+        <Route path='/' element={<Signup/>}/>
+git
         <Route path='/home'  element={<Home />}/>
         <Route path='/profile' element={<Profile  />}/>
         <Route path='/section' element={<Section2/>}/>
