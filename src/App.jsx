@@ -20,11 +20,11 @@ function App() {
     <>
     {/* <Home/> */}
 
-    <Router>
+    <Router basename="/Dribble">
     {/* <Navbar/> */}
         {/* <Signup/> */}
       <Routes>
-        <Route path='/' element={<Signup/>}/>
+        <Route path='/Dribble' element={<Signup/>}/>
 
         <Route path='/home'  element={<Home />}/>
         <Route path='/profile' element={<Profile  />}/>
